@@ -135,20 +135,20 @@ export class SmartController {
     res.status(HttpStatus.OK).json({
       success: true,
       data: {
-        platformFeesPerSecondUSD: 0.18687237264801504,
-        penaltyFeesPerSecondUSD: 0.23819159018290648,
-        totalRevenuePerSecondUSD: 0.4250639628309215,
-        totalPlatformFees: 36725.52638859162,
+        platformFeesPerSecondUSD: 0.1757561513933855,
+        penaltyFeesPerSecondUSD: 0.23834488652118235,
+        totalRevenuePerSecondUSD: 0.41410103791456787,
+        totalPlatformFees: 35778.32967581866,
         asset: {
-          RDNT: 56.036646484108644,
-          rWBTC: 1.089388672322955,
-          rDAI: 6.289443762948937,
-          rUSDT: 16.430087144712534,
-          rUSDC: 18.065461199382494,
-          rWETH: 2.0889727365244273,
+          RDNT: 57.55718162927056,
+          rWBTC: 0.99590219098067,
+          rDAI: 6.180923971681347,
+          rUSDT: 15.558368038523115,
+          rUSDC: 16.94973599088577,
+          rWETH: 2.7578881786585394,
         },
         stakingAPR: 0,
-        lockingAPR: 3.8926518007465862,
+        lockingAPR: 3.5199404095961335,
         rewardTokens: [
           {
             symbol: "DAI",
@@ -159,13 +159,13 @@ export class SmartController {
           {
             symbol: "WETH",
             decimals: 18,
-            price: 1564.5589540302462,
+            price: 1629.8832311636493,
             rToken: "0x15b53d277Af860f51c3E6843F8075007026BBb3a",
           },
           {
             symbol: "WBTC",
             decimals: 8,
-            price: 18859.500087680277,
+            price: 19280.62547645678,
             rToken: "0x4cD44E6fCfA68bf797c65889c74B26b8C2e5d4d3",
           },
           {
@@ -180,18 +180,18 @@ export class SmartController {
             price: 1,
             rToken: "0x805ba50001779CeD4f59CfF63aea527D12B94829",
           },
-          { symbol: "RDNT", decimals: 18, price: 0.049986948515540454 },
+          { symbol: "RDNT", decimals: 18, price: 0.052995655466550134 },
         ],
         lockingAPRPerToken: {
-          RDNT: 2.1813115284416535,
-          rWBTC: 0.04240610777030884,
-          rDAI: 0.24482614589537566,
-          rUSDT: 0.6395660831028858,
-          rUSDC: 0.7032255006909385,
-          rWETH: 0.08131643484542335,
+          RDNT: 2.025978494793337,
+          rWBTC: 0.03505516366038187,
+          rDAI: 0.21756484056562603,
+          rUSDT: 0.5476452836616644,
+          rUSDC: 0.5966206064630479,
+          rWETH: 0.09707602045207674,
         },
       },
-      generatedAt: 1662560374083,
+      generatedAt: 1662609898914,
     });
   }
 }
